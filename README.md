@@ -8,6 +8,7 @@ Créditos e Licença
 * Desenvolvedor: Alessandro Santos
 * GitHub: @alessandrosanntos
 * Versão Atual: 4.4
+* Versão de lançamento: 1.0
 * Licença: GNU GPLv3 (Código Aberto).
 
 Funcionalidades Principais (Versão 4.4)
