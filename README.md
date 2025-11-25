@@ -2,7 +2,7 @@
 
 Sobre o Projeto:
 
-Este software foi desenvolvido com o objetivo de garantir transparência, segurança e auditoria no processo de sorteio público para ingresso de novos alunos no Colégio Universitário Geraldo Reis (COLUNI-UFF).
+Este software foi desenvolvido com o objetivo de garantir transparência, segurança, agilidade e auditoria no processo de sorteio público para ingresso de novos alunos no Colégio Universitário Geraldo Reis (COLUNI-UFF).
 O sistema automatiza o sorteio aleatório de candidatos, respeitando rigorosamente as cotas, a ordem de prioridade e o remanejamento automático de vagas não preenchidas para a Ampla Concorrência, conforme as regras de editais de concursos públicos.
 Créditos e Licença
 * Desenvolvedor: Alessandro Santos
