@@ -62,4 +62,5 @@ Requisitos do Sistema
    5. LICENSE (Termos da GPLv3).
 Como Contribuir
 Sendo um projeto de código aberto, contribuições são bem-vindas. Sinta-se à vontade para fazer um fork deste projeto no GitHub, implementar melhorias e enviar um pull request.
-Desenvolvido com ❤️ para a educação pública.
+
+# Desenvolvido com ❤️ para a educação pública.
