@@ -1,0 +1,50 @@
+# GUIA RÁPIDO DE OPERAÇÃO - SORTEIO COLUNI-UFF
+Desenvolvido por: Alessandro Santos (GitHub: @alessandrosanntos) Versão do Sistema: 4.4
+
+PASSO 1: PREPARAÇÃO DOS ARQUIVOS
+1. Certifique-se de que o arquivo "base.xlsx" está na mesma pasta do programa.
+2. Abra o Excel e verifique se existem 4 colunas na ordem:
+[A] Inscrição | [B] Nome | [C] Turma | [D] Cota
+3. Salve e feche o Excel antes de abrir o programa.
+
+PASSO 2: INICIANDO O SISTEMA
+   1. Abra o programa "Sorteio Coluni-UFF".
+   2. Clique no botão "Carregar Planilha" e selecione o arquivo "base.xlsx".Aguarde a mensagem verde "Sucesso!" aparecer abaixo do botão.
+O sistema informará quantos inscritos válidos existem e quantos cancelados foram removidos.
+   3. No campo "Semente de Auditoria", digite o código validador do dia.Exemplo: "DATA-HORA" ou o número do concurso da Loteria Federal.
+   4. Clique em "INICIAR SORTEIO".
+
+PASSO 3: CONFIGURAÇÃO DA TURMA
+O sistema apresentará as turmas uma a uma. Nesta tela:
+      1. Verifique o nome da turma e o número de inscritos no topo.
+      2. Preencha as vagas para CADA COTA (PPI1, PPI2, RF, PCD, AC).Digite o número de Vagas Imediatas.
+Digite o número de Vagas para Cadastro de Reserva.
+      3. Se esta turma tiver as mesmas vagas da anterior, use o botão amarelo
+"Copiar Vagas da Turma Anterior" para agilizar.
+      4. Clique no botão verde "CONFIRMAR E IR PARA SORTEIO".Uma janela pedirá confirmação dos números digitados. Leia com atenção.
+         * CASO ESPECIAL: Se não houver vagas para a turma (não será sorteada),
+clique no botão vermelho "PULAR TURMA". Isso registrará no log que
+a turma foi pulada e avançará para a próxima.
+
+PASSO 4: REALIZANDO O SORTEIO (A EMOÇÃO!)
+Nesta versão, você tem total controle do ritmo:
+            1. O sistema mostrará a Categoria (Cota) e quantas vagas existem.Se a cota for "AC", ele mostrará o detalhe: (Vagas Originais + Sobras).
+            2. Clique no botão azul "SORTEAR PRÓXIMO >>".
+            3. O sistema fará a animação de suspense na tela (5 segundos).
+            4. Primeiro aparecerá o NÚMERO DA INSCRIÇÃO.
+            5. Após uma pausa de 2 segundos e uma mensagem de "Buscando...", aparecerá o NOME.
+            6. Repita o processo clicando no botão até sortear todas as vagas.
+Nota: Vagas não preenchidas em cotas (por falta de candidatos) são
+automaticamente transferidas para a Ampla Concorrência (AC).
+
+PASSO 5: CONFERÊNCIA E FINALIZAÇÃO
+            1. Ao terminar todos os nomes da turma, uma janela abrirá com a PLANILHA
+de resultados. Confira os dados visualmente.
+            2. Clique em "Fechar e Próxima Turma" para continuar.
+            3. Ao final de todas as turmas, clique no botão "Resultado do Sorteio"
+para abrir a pasta de registros automaticamente.
+Uma pasta será criada com o nome "RESULTADO DO SORTEIO - [Semente]".
+Dentro dela estarão os arquivos de texto (.txt) individuais de cada turma
+e um RESUMO GERAL consolidado.
+========================================================================= 
+Em caso de dúvidas, consulte o desenvolvedor. Software Livre e Auditável.
